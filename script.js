@@ -10,7 +10,7 @@ char = document.getElementById('char');
 
 text.addEventListener('input', function(){
 
-// Updating character count
+// Updating character count using DOM Manupilation
 
 let characters = this.value;
 char.textContent = characters.length;
