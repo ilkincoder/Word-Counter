@@ -7,7 +7,6 @@ char = document.getElementById('char');
 
 // On input implementing function
 
-
 text.addEventListener('input', function(){
 
 // Updating character count using DOM Manupilation
@@ -15,8 +14,7 @@ text.addEventListener('input', function(){
 let characters = this.value;
 char.textContent = characters.length;
 
-//Removing spaces from beginning and end
-
+//Removing spaces from beginning and end using "trim" method
 characters.trim();
 
 //  create andreturn array of singular words using (/\s/) - regex pattern
